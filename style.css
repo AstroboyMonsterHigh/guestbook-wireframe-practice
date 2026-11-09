@@ -1,0 +1,17 @@
+body {
+    background-color: grey;
+    color: white;
+    margin: 1rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+img {
+    border: 2px red solid ;
+    width: 50%;
+    height: auto;
+}
