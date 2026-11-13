@@ -5,22 +5,48 @@ body {
 }
 
 .header {
-    text-align: center; /* <-- this centers text */
     
     h1 {
-    padding: 1rem 0 0.5rem;
+        text-align: center; /* <-- this centers text */
+        padding: 1rem 0 0.5rem;
+    }
+    
+    p {
+        text-align: center; /* <-- this centers text */
     }
 
     .header-subtitle {
-    color: #ddd;
-    margin-bottom: 0.5rem;
+        color: #ddd;
+        margin-bottom: 0.5rem;
     }
     
     .header-image {
-    width: 50%;
-    height: auto;
-    margin: 0 auto; /* <-- this centers images */
-    margin-bottom: 0.5rem;
+        width: 50%;
+        height: auto;
+        margin: 0 auto; /* <-- this centers images */
+        margin-bottom: 0.5rem;
+    }
+    
+    .header-link {
+        
+        .header-anchor {
+            display: flex;
+            text-decoration: underline;
+            color: blue;
+            gap: 1rem;
+            
+            .link-left {
+                text-align: left;
+            }
+            .link-center {
+                text-align: center;
+            }
+            .link-right {
+                text-align: right;
+            }
+        }
+    
+    
     }
 }
 
@@ -61,6 +87,14 @@ body {
     margin: 0 auto;
     padding: 1rem;
     }
+    
+    .main-links {
+        .main-anchor {
+        text-align: center;
+        color: blue;
+        text-decoration: underline;
+        }
+    }
 }
 
 .footer {
@@ -71,5 +105,12 @@ body {
     height: auto;
     margin: 0 auto;
     padding: 1rem;
+    }
+    
+    .footer-links {
+        .footer-btn {
+            color: blue;
+            text-decoration: underline;
+        }
     }
 }
