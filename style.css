@@ -28,25 +28,18 @@ body {
     }
     
     .header-link {
+        margin-block: 2rem;
         
         .header-anchor {
             display: flex;
+            justify-content: space-around;
             text-decoration: underline;
             color: blue;
-            gap: 1rem;
-            
-            .link-left {
-                text-align: left;
-            }
-            .link-center {
-                text-align: center;
-            }
-            .link-right {
-                text-align: right;
             }
         }
     
-    
+    .header-nav {
+        margin: 1rem;
     }
 }
 
@@ -81,24 +74,35 @@ body {
         text-align: right;
     }
     
-    .main-image {
-    width: 50%;
-    height: auto;
-    margin: 0 auto;
-    padding: 1rem;
-    }
-    
     .main-links {
-        .main-anchor {
-        text-align: center;
-        color: blue;
-        text-decoration: underline;
+        
+        p {
+            text-align: center;
         }
+        
+        .main-image {
+            width: 50%;
+            height: auto;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        .main-anchor {
+            margin: 1rem;
+            border: 1px red solid;
+            color: blue;
+            text-decoration: underline;
+        }
+
     }
 }
 
 .footer {
-    text-align: center;
+    margin: 1rem 0 ;
+    
+    .footer-about {
+        margin-top: 1rem;
+    }
     
     .footer-image {
     width: 50%;
@@ -108,6 +112,8 @@ body {
     }
     
     .footer-links {
+        text-align: center;
+        
         .footer-btn {
             color: blue;
             text-decoration: underline;
